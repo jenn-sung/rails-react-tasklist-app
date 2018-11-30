@@ -4,7 +4,7 @@ class Api::V1::TasksController < ApplicationController
   end
 
   def create
-    fruit = Task.create(task_params)
+    task = Task.create(task_params)
     render json: task
   end
 

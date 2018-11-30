@@ -9,3 +9,4 @@
 
 Task.create(name: "Ilknur", description: "mow the lawn", due_date: "today", completed: false)
 Task.create(name: "Raul", description: "take a shower", due_date: "today", completed: false)
+Task.create(name:"Jenn", description:"Meditate!", due_date: "Yesterday", completed: false)
